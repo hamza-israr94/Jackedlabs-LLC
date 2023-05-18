@@ -59,6 +59,11 @@
   transition-timing-function: linear !important;
 } */
 
+.swiper-wrapper{
+  display: flex;
+  justify-content: center;
+}
+
 /* swiper styles end */
 
 .gradient-01 {

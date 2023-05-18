@@ -68,7 +68,7 @@ const OurPartners = () => {
       height: '80',
     },
   ];
-  
+
   return (
     <section className="bg-background bg-[url(/static/images/bgtexture.png)]">
       <div className="flex justify-center pt-10 md:pt-20 lg:pt-0 xl:pt-[60px]">
@@ -90,9 +90,11 @@ const OurPartners = () => {
           className="mySwiper"
         >
           {/* {mapData.map((data) => ( */}
-            <SwiperSlide className="swiper-wrapper" >
-              <LogoSlide  />
-            </SwiperSlide>
+
+          <SwiperSlide className="swiper-wrapper">
+            <LogoSlide />
+          </SwiperSlide>
+
           {/* ))} */}
         </Swiper>
       </div>
