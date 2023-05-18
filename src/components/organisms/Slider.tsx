@@ -96,7 +96,7 @@ const Slider = ({ slides }: any) => {
             >
               <div className="mx-2 md:min-h-[400px] lg:min-h-[350px] xl:min-h-[400px] h-full bg-[#3D4175] p-4 md:p-[40px] lg:p-[20px] xl:p-[40px] flex justify-between space-x-3 cursor-pointer">
                 <div className="relative max-w-[180px] max-h-[200px] md:max-h-full  md:max-w-[230px] w-full">
-                  <Image src={slide.image} fill alt="headshots" />
+                  <Image src={slide.image} fill alt="headshots" priority />
                 </div>
                 <div className="lg:max-w-[200px] xl:max-w-[326px] w-full">
                   <div className="flex max-w-[326px] w-full justify-between items-center mb-2 lg:mb-0">

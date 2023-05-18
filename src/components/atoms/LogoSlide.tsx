@@ -11,6 +11,7 @@ const LogoSlide = ({ data }: any) => {
           width={152}
           height={80}
           style={{ objectFit: 'contain' }}
+          priority
         />
       </div>
     </Link>
