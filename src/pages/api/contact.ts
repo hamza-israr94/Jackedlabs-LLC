@@ -46,7 +46,7 @@ const generateEmailContent = (data: data) => {
 };
 
 const handler = async (req: NextApiRequest, res: NextApiResponse<Data>) => {
-  if (req.method !== 'POST') {
+  if (req.method === 'POST') {
     const data = req.body;
     // console.log('FormDATAAA', data);
     if (!data.name || !data.email || !data.phone || !data.comments) {
