@@ -1,5 +1,6 @@
 import React from 'react';
 
+type Props = {};
 
 const LoadingScreen = (props: Props) => {
   return (
