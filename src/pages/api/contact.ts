@@ -1,6 +1,5 @@
 import { mailOptions, transpoter } from 'lib/nodemailer';
 import type { NextApiRequest, NextApiResponse } from 'next';
-import { Html } from 'next/document';
 
 type Data = {
   message?: string;
